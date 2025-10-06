@@ -1,6 +1,6 @@
 <h1>ExpNo 4 : Implement A* search algorithm for a Graph</h1> 
-<h3>Name: V.S.Sree Viveka      </h3>
-<h3>Register Number: 2305001031        </h3>
+<h3>Name: KANISHKA P     </h3>
+<h3>Register Number: 2305001011        </h3>
 <H3>Aim:</H3>
 <p>To ImplementA * Search algorithm for a Graph using Python 3.</p>
 <H3>Algorithm:</H3>
@@ -23,7 +23,9 @@
        * Update its cost and parent.
        * Add it to the open_list if not already there.
 6. If the open_list becomes empty and the goal was not reached, there is no path.
+   
 ## PROGRAM
+
 ```python
 def a_star(start, goal, graph, h):
     open_list = [start]
@@ -70,18 +72,21 @@ path = a_star(start, goal, graph, h)
 print("Path found:", path)
 ```
 
-SAMPLE GRAPH I
+SAMPLE GRAPH 
+
 ![WhatsApp Image 2025-10-03 at 09 22 57_c1b83572](https://github.com/user-attachments/assets/a620a08b-1339-4cec-9d52-3f9b560e4792)
 
 SAMPLE INPUT
+
 ![WhatsApp Image 2025-10-03 at 09 51 02_de0ff9a2](https://github.com/user-attachments/assets/e7dd60dc-ffc6-4fba-bef0-de17e6af1e3c)
 
-<hr>
+
 Sample Output
 
 ![WhatsApp Image 2025-10-03 at 09 51 51_f48a4a9d](https://github.com/user-attachments/assets/634ebd83-86a8-4ac1-94cc-b45b7b32d0c3)
 
-<hr>
+
 ##RESULT:
+
 Thus the given program for A* algorithm was implemented and executed successfully.
 
